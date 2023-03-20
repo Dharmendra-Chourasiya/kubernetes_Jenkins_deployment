@@ -34,7 +34,7 @@ pipeline {
       
           stage('Build B') {
              steps {
-                 build job: "Sonar_Project", wait: true
+                 build job: "Sonar_Setup", wait: true
                     }
                 }
 
